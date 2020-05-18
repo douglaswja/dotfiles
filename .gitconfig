@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	br = branch
+	st = status
+    graph = log --all --graph --decorate
+[user]
+	email = douglaswja@hotmail.com
+	name = Douglas Allwood
+[core]
+	editor = vim
