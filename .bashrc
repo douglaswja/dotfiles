@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 alias sl=ls
+alias v="vim ."
