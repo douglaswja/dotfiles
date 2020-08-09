@@ -32,3 +32,8 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=darkgrey
 
 
+" Remaps
+inoremap jk <Esc>
+nnoremap W :w<CR>
+nnoremap Q :wq<CR>
+
