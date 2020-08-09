@@ -33,7 +33,6 @@ highlight ColorColumn ctermbg=darkgrey
 
 
 " Remaps
-inoremap jk <Esc>
 nnoremap W :w<CR>
-nnoremap Q :wq<CR>
+nnoremap Q :q<CR>
 
