@@ -118,3 +118,6 @@ fi
 
 alias sl=ls
 alias v="vim ."
+alias run="g++ main.cpp && ./a.out"
+alias mv="mv -i"
+alias mkdir="mkdir -p"
