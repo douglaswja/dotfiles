@@ -6,9 +6,7 @@ set shortmess+=I
 " Always show the status line at the bottom, even if only 1 window open
 set laststatus=2
 
-" The backspace key has slightly unintuitive behavior by default. For example,
-" by default, you can't backspace before the insertion point set with 'i'.
-" This configuration makes backspace behave more reasonably, in that you can
+" This configuration makes backspace behave more reasonably, in that one can
 " backspace over anything.
 set backspace=indent,eol,start
 
@@ -33,6 +31,8 @@ highlight ColorColumn ctermbg=darkgrey
 
 
 " Remaps
+let mapleader = " "
 nnoremap W :w<CR>
 nnoremap Q :q<CR>
-
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
